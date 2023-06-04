@@ -1,0 +1,430 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+}
+body{
+        overflow-x: hidden;
+
+    }
+header{
+        
+        /* background: url('https://th.bing.com/th/id/R.03c0b5b9e2e04dbdfa7eda7289728b32?rik=%2bhkpKQ2LGngtcA&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2014%2f07%2fblack-wallpapers-20.jpg&ehk=AR1eAPnxbWGypks7HXg%2biP9%2bOCq0XXhWVZqxweCXaX8%3d&risl=&pid=ImgRaw&r=0'); */
+    border: 1px solid black;
+    background-color: #000814;
+}
+.photozz{
+    /* border: 2px solid red; */
+        height: 730px;
+        position: relative;
+        left: 150px;
+        bottom: 50px;
+        
+}
+
+.logo{
+    /* border: 2px solid red; */
+    color: #9d4edd;
+    font-weight: 900;
+    font-size: 50px;
+    display: inline;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    
+}
+  
+
+.navbar{
+    position: fixed;
+    top: 20px;
+    left: 300px;
+    
+   
+    width: 100%;
+    /* background-color:#3c096c ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000000;
+    
+    /* opacity: 0.7; */
+    
+}
+
+.navbar ul{
+    
+    display: flex;
+    margin: 30px 0px;
+    
+    
+}
+
+.navbar ul li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:bold ;
+    
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+
+}
+.navbar ul li a:hover{
+    
+    background-color: #9d4edd;
+    border-radius: 16px;
+     
+}
+#home{
+    display: flex;
+    
+    /* background-color: rgb(194, 95, 95); */
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 60px;
+    
+}
+.main{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    align-items:center ;
+    justify-content: center;
+    position: relative;
+
+    
+    bottom: 5%;
+    right: 14%;
+}
+
+.heading{
+    font-size: 40px;
+    margin-top: 2px;
+    margin-right: 62px;
+    color: #9d4edd;
+
+
+}
+
+.headings{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif ;
+    position: relative;
+    left: 40px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #9d4edd;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
+    margin-right: 20px;
+    border: 4px solid black;
+    border-radius: 18px;
+}
+.btnx{
+    /* border: 2px solid red; */
+    position: relative;
+    top:20px;
+    left: 45px;
+    
+    
+
+}
+
+.icons{
+    font-size: 40px;
+    
+   
+    
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+}
+.face:hover{
+    /* border: 2px solid red; */
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+.face{
+    margin-left: 30px;
+}
+.para{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 300px;
+    font-weight: bold ;
+    margin-top:20px ;
+    margin-right: 14px;
+}
+
+
+.btn:hover{
+    cursor:pointer;
+    background-color: white;
+    transition: 0.6s ease;
+}
+.aboutme{
+    background-color:white;
+    display:flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+#pic{
+    display: flex;
+    justify-content: center;
+
+}
+.photo{
+    height: 600px;
+    
+    padding: 40px;
+    /* border: 2px solid green; */
+    border-radius: 40px;
+    position: relative;
+    top: 80px;
+}
+.parax{
+    /* border: 2px solid green; */
+    color: white;
+    position: relative;
+    top: 190px;
+
+    width: 600px;
+    
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   }
+   .aboutz{
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 150px;
+    
+    width:450px;
+    /* border: 2px solid rgb(21, 8, 83); */
+   }
+   .intro{
+    /* border: 2px solid red; */
+    height:800px;
+    width:800px;
+    margin-left: 40px;
+   }
+
+   .hii{
+    color: white;
+    font-size: 1.7em;
+    position: relative;
+    top: 150px;
+   }
+   .me{
+    color: #9d4edd;
+    margin-left: 10px;
+   }
+   .btnr{
+    padding: 10px 20px;
+    background-color: #9d4edd;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
+    margin-right: 20px;
+    border: 4px solid black;
+    border-radius: 18px;
+    position: relative;
+    bottom: 283px;
+    left: 854px;
+
+   }
+
+   .btnr:hover{
+    cursor:pointer;
+    background-color: white;
+    transition: 0.6s ease;
+}
+
+#services{
+    height: 700px;
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 56px;
+    padding-top: 79px;
+    
+}
+.ser{
+    color: white;
+    font-size: 53px;
+    position: relative;
+    left: 42%;
+    
+}
+.xyz{
+    color: #9d4edd;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #9d4edd; ;
+    border-radius:16px;
+    color: white;
+    height: 400px;
+    width:400px;
+}
+
+.services-btn{
+    color:black;
+    margin: 10px;
+    width: 200px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+
+.service{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.webdev{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.qwe{
+    font-size: 50px;
+    color: #9d4edd;
+}
+
+#contact{
+    height: 700px;
+    /* border: 2px solid red; */
+    padding-top: 80px;
+    position: relative;
+    bottom: 75px;
+    
+}
+
+.boxx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxindex{
+    color: white;
+    /* border: 2px solid red; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin: 30px;
+    
+
+}
+
+.iconz{
+    font-size: 100px;
+    color: #9d4edd;
+    margin-top: 25px;
+    position: relative;
+    left:60px;
+
+}
+.chat{
+    /* border: 2px solid green; */
+    font-size: 50px;
+    width: 400px;
+    
+    margin-right: 120px;
+}
+.rest{
+    margin-bottom: 27px;
+}
+
+.hey{
+    position: relative;
+    right: 10px;
+}
+
+
+#feedback{
+    height: 600px;
+}
+.form{
+    color: white;
+    /* border: 2px solid red; */
+
+    height: 200px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 30%;
+}
+.rog{
+    /* border: 2px solid red; */
+    height: 40px;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.textt{
+    height: 150px;
+    font-size: 20px;
+    border: 2px solid #9d4edd;
+    width:400px;
+    
+    position: relative;
+    left: 70px;
+}
+.emaill{
+    font-size: 20px;
+    border: 2px solid #9d4edd;
+   
+    position: relative;
+    left: 30px;
+   
+
+}
+
+.namee{
+    font-size: 20px;
+    border: 2px solid #9d4edd;
+    
+    position: relative;
+    left: 70px;
+
+
+}
+.query{
+    /* border: 4px solid #9d4edd; */
+    height: 50px;
+    /* margin-left: 210px;
+    margin-top: 40px; */
+}
+
+
+
